@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Raleway&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+/* CONTACT FORM SECTION */
+.heading{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    margin: 8px 0px;
+    padding: 10px;
+    outline: none;
+}
+.container{
+    min-height: 75vh;
+}
+.btn{
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: #020105;
+    border-radius: 15px;
+    margin: 10px 0px;
+}

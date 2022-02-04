@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style 
+    style
+      include ../static/homeStyle.css
+
+block content 
+    section#introSection
+        div Welcome to Arushi's Dance Academy
+        div.small Eat Dance Sleep Repeat 
+    section#missionSection
+        div.missionHeading 
+            h2 Our Mission 
+        div.cardSection
+            .card 
+                h3 Dance Perfection
+                img.card-img(src="/static/img/img4.png", alt="")
+                p This is the Best Dance Academy in the world 
+            .card 
+                h3 Dance the way you like 
+                img.card-img(src="/static/img/img3.png", alt="")
+                p This is the Best Dance Academy in the world 
+            .card 
+                h3 Expert Teaching
+                img.card-img(src="/static/img/img2.png", alt="")
+                p This is the Best Dance Academy in the world 
+    section#sponsorsSection
+        div.sponsorsHeading    
+            h2 Our Sponsors
+        div.sponsorsBox 
+            img.sponsors-img(src="/static/img/spon1.png", alt="")
+            img.sponsors-img(src="/static/img/spon2.png", alt="")
+            img.sponsors-img(src="/static/img/spon3.png", alt="")
+            img.sponsors-img(src="/static/img/spon4.png", alt="")
